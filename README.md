@@ -76,11 +76,12 @@ Your journey will take you through the wildness of the American Midwest and acro
 ```
 
 1. In the **main** module, one of the first lines of code is `const drovers = hireDrovers(cattleToDrive)`. Explain what the value of the `drovers` variable is when that line of code runs.
-   > Your answer here
+   > 5; the number of drovers being accompanied 
 2. At the bottom of the main module, you will see the following code - `for (const drover of drovers)`. Explain what the values of both the `drover` and the `drovers` variables are.
-   > Your answer here
+   > 'drover' represents one drover of a "collection" of 'drovers'; so pretty much this code is pulling all drovers that the traveler will will be joining on the adventure 
 3. In the **journey** module, there is a `journeyMaker()` function. In that function, there is a variable named `areas` which will have the value of an object. Use your debugger to show what the value of each key is on that object. Use [Loom](https://www.loom.com) to record your session.
    > Your public Loom URL here
+    https://www.loom.com/share/905bc0a8efba4b0c9b58d8369952bd4b
 4. Also in the **journey** module, there is the following code:
    ```js
    for (let forestNumber = 0; forestNumber < areas.forests; forestNumber++) {
@@ -88,11 +89,12 @@ Your journey will take you through the wildness of the American Midwest and acro
    }
    ```
    Explain this code with your best vocabulary.
-   > Your answer here
+   > This code is a part of the larger function journeyMaker(). In which, this specific line of code is saying one of the areas on the adventure is a forest. More areas can be considered if the let value changed for zero to a differnt integer. 
+
 5. Explain the value of the `database` variable in the **database** module. Be as comprehensive as possible.
-   > Your answer here
+   > 'database' is an object. It is holding all of the data for the cattleTypes and drovers. 
 6. In the **drovers** module, there is a `hireDrovers()` function. You will notice the following code on that line - `(herdSize)`. What is that defining, and where does it get its value?
-   > Your answer here
+   >herdSize is defining the herds that people will see on the adventure. It includes the type of cattle and the breed. It gets it's value from database.js; which in includes all data about the cattle. 
 
 ## When You Are Done
 
